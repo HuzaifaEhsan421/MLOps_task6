@@ -1,0 +1,5 @@
+stages:
+  process_data:
+    cmd: app.py --outs processed_data.csv python app.py
+    deps:
+    - data.csv
